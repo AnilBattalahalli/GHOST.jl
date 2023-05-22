@@ -36,11 +36,11 @@ GitHub API v4 GraphQL API endpoint.
 """
 const GITHUB_GRAPHQL_ENDPOINT = "https://api.github.com/graphql"
 """
-    GH_FIRST_REPO_TS::DateTime = 2007-10-29T14:37:16
+    GH_FIRST_REPO_TS::DateTime = 2019-01-01T01:00:00
         
 Timestamp when the earliest public GitHub repository was created (id: "MDEwOlJlcG9zaXRvcnkx", nameWithOwner: "mojombo/grit")
 """
-const GH_FIRST_REPO_TS = DateTime("2007-10-29T14:37:16")
+const GH_FIRST_REPO_TS = DateTime("2019-01-01T01:00:00")
 
 # for (root, dirs, files) in walkdir(joinpath(@__DIR__, "src"))
 for (root, dirs, files) in walkdir(joinpath(@__DIR__))
